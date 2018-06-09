@@ -9,7 +9,6 @@ USE ly_project;
 
 /***用户模块相关的表***/
 #用户表 ly_user
--------------------------------------
 CREATE TABLE `ly_user` (
   `uid` int(11) NOT NULL auto_increment,
   `uname` varchar(64) default NULL,
@@ -30,7 +29,7 @@ INSERT INTO ly_user VALUES
 (NULL,'jinjin','jinjin123','jinjin@qq.com','14652124569','古晋','1');
 
 #banner表
-------------------------------------
+
 CREATE TABLE ly_index_carousel(
  cid INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
  img varchar(128),
@@ -41,7 +40,7 @@ INSERT INTO ly_index_carousel VALUES
 (NULL,'img/banner/AD0I__v7BBACGAAg8ImzxwUoto2TzAQwhw840wU.jpg',null); 
 
 #ly_index_product
-----------------------------------
+
 CREATE TABLE `ly_index_product` (
   `pid` int(11) NOT NULL auto_increment,
   `title` varchar(64) default NULL,
@@ -84,7 +83,7 @@ INSERT INTO `ly_index_product`(`pid`,`title`,`type`,`cities`,`pic`,`price`,`href
 
 
 #ly_laptop
-----------------------------------
+
 CREATE TABLE `ly_laptop` (
   `lid` int(11) NOT NULL auto_increment,
   `title` varchar(128) default NULL,
@@ -164,15 +163,14 @@ INSERT INTO `ly_laptop` (`lid`, `title`, `days`, `destination`, `price`, `pic`,`
 
 
 #ly_laptop_pic
------------------------------------
+
 CREATE TABLE `ly_laptop_pic` (
   `iid` int(11) NOT NULL auto_increment,
-  `laptop_lid` int(11) default NULL,
   `img` varchar(128) default NULL,
-  PRIMARY KEY  (`pid`)
+  PRIMARY KEY  (`iid`)
 );
 
-INSERT INTO `ly_laptop_pic` (`iid`, `laptop_id`,`img`) VALUES 
+INSERT INTO `ly_laptop_pic` (`iid`,`img`) VALUES 
 ('1', '1', 'img/product/AD0ItOahBxACGAAg0tTkzwUonPPUygcw1gM4mAI!400x400.jpg'),
 ('2', '2', 'img/products/AD0ItOahBxACGAAg0tTkzwUonPPUygcw1gM4mAI!400x400.jpg'),
 ('3', '3', 'img/products/AD0ItOahBxACGAAg5crgzwUo1OC5rgMw1gM4mAI!400x400.jpg'),
