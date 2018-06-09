@@ -1,0 +1,101 @@
+body{
+	position:relative;
+}
+#top{
+	position:fixed;
+	right:30px;
+	bottom:240px;
+}
+/*banner大图*/
+	.about-banner{
+		width:100%;
+		min-width:1200PX;
+		height:500px;
+		overflow:hidden;
+		margin-bottom:15px;
+	}
+	.about-banner>.pic{
+		width:100%;
+		height:500px;
+		overflow:hidden;
+		background:url(../img/about/AOoICAIQ5721wQUYrM63ZyCADyj0Aw.jpg) no-repeat top center;
+	}
+
+
+/* 服务部分*/
+	/* 整个高宽设置*/
+	#about{
+		width:100%;
+		min-width:1200px;
+		height:1150px;
+		margin:-20px auto;
+		box-sizing:border-box;
+		background:url(../img/about/AD0IkKr7BRAEGAAgn-O7wwUovMWoCTCADzjDEg.png) no-repeat;
+		background-size:100% 100%;
+	}
+	#about #about-content{
+		width:1200px;
+		margin:0 auto;
+		padding:0;
+	}
+	/* 服务至上*/
+	#about #about-content #desc{
+		width:100%;
+		height:200px;
+		margin:0 auto;
+		padding:50px 10px 10px 30px;
+		text-align:center;
+	}
+	#about #about-content #desc p{
+		margin:40px 100px 0 0;
+		text-align:center;
+		font-size:40px;
+		font-weight:700;
+	}
+	#about #about-content #desc p>span{
+		font-size:40px;
+		color:rgb(255, 192, 1);
+	}
+	#about #about-content #desc div{
+		margin:20px 100px 0 0;
+		text-align:center;
+		font-size:16px;
+		line-height:28px;
+		color:#666;
+	}
+	/* 联系我们*/
+	#about #about-content #connection,#address{
+		width:100%;
+		height:200px;
+		margin:20px auto 50px;
+		padding:40px 10px 10px 30px;
+	}
+	#about #about-content #connection  p:first-child{
+		font-size:25px;
+		font-weight:700;
+	}
+	#about #about-content #connection .con-content{
+		width:100%;
+		height:auto;
+		margin-top:50px;
+		text-align:center;
+	}
+	#about #about-content #connection .con-phone,.con-email,.con-address{
+		float:left;
+		margin-bottom:20px;
+		width:33%;
+	}
+	#about #about-content #connection .con-content p{
+		font-size:16px;
+		margin-top:10px;
+	}
+	/*地图*/
+	#about #about-content #address>p{
+		font-size:25px;
+		font-weight:700;
+	}
+	#about #about-content #address #container{
+        width:1100px;
+        height:400px;
+		margin:20px 0 0 50px;
+    }

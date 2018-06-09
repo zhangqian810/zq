@@ -1,0 +1,183 @@
+/*头部*/
+	.login_top{
+		height:70px;
+	}
+	.lv_logo{
+/*		margin-top:-10px;*/
+		float:left;
+		background:url(../img/header/logo3.png) no-repeat;
+	}
+	.lv_logo, .lv_logo a{
+		width:220px;
+		height:70px;
+		position:relative;
+	}
+	.lv_logo_keywords{
+		float:left;
+		height:40px;
+		line-height:40px;
+		text-indent:10px;
+		margin-left:10px;
+		border-left:1px solid #CCCCCC;
+		font-size:22px;
+		color:#666666;
+		font-weight:normal;
+		margin-top:15px;
+	}
+	.login_hotline{
+		position:relative;
+		top:10px;
+		float:right;
+		display:block;
+		overflow:hidden;
+		padding-top:15px;
+		font-size:15px;
+		color:#666666;
+		font-weight:normal;
+	}
+/*主体*/
+	.login-wrap{
+		width:100%;
+		min-width:1200px;/*固定背景图片，防止宽口缩小后图片变化*/
+		height:450px;
+		position:relative;
+		background:url(../img/login/sy-zbchx-dl.jpg) no-repeat 0px 0px;   /*登录背景t图片添加*/
+	}
+	/*--登录切换--*/
+	.login-box {
+		overflow:hidden !important;
+		width:320px;
+		height:300px;
+		position:absolute;
+		margin-left:850px;
+		z-index:9;
+		background:#fff;
+		margin-top:50px;
+		box-shadow: 0px 0px 2px #a6a6a6;
+	}
+ 	.user-box ul.tab{
+		height:43px;
+		padding-top:10px;
+		border-bottom:1px solid #e4e4e4;
+	} 
+	.user-box ul.tab .active{
+		color:#00c77b;
+		font-weight:700;
+		border-bottom:2px solid #00c77b;
+	}
+	.user-box ul.tab li{
+		font-size:16px;
+		color:#666;
+		height:43px;
+		line-height:43px;
+		text-align:center;
+		width:120px;
+		cursor:pointer;
+		margin:0 20px;
+	}
+/*	.user-box ul.tab li:hover{
+		color:#00c77b;
+		font-weight:700;
+		border-bottom:2px solid #00c77b;
+	}*/
+	/*--普通登录--*/
+	.content{
+		padding:30px 20px 0;
+		display:block;
+	}
+	.content .user-ipt {
+		border:1px solid #aaa;
+		box-shadow:1px 1px 1px #cecece inset;
+		width:240px;
+		line-height:40px;
+		height:40px;
+		vertical-align:middle;
+		padding:0 0 0 38px;
+		font-size:14px;
+		color:#333;
+	}
+	.content .name,.passwd{
+		padding: 0 0 0 45px;
+		height: 22px;
+		line-height:22px;
+		font-size: 14px;
+		color:#bababa;
+		top:0;
+		left:0;
+		position:absolute;
+		margin:10px 0 0;
+	}
+	.content .name {
+		background:url(../img/login/user-bg.png)  no-repeat 12px 3px;
+	}	
+	.content .ipt-box li {
+		margin:0 0 15px 0;
+		position:relative;
+	}
+	.content .passwd{
+		background: url(../img/login/user-bg.png) no-repeat 12px -39px;
+	}
+	.content .check-box {
+		color:#666;
+		font-size:14px;
+	}
+	.content .check {
+		vertical-align:middle;
+		margin:0 5px 0 0;
+	}
+	input[type=checkbox]{
+		box-sizing:border-box;
+		padding:0;
+	}
+	.content .link {
+		color:#09c;
+		font-size:14px;
+	}
+	.content #loing-btn {
+		display:block;
+		background:#0aa1ed;
+		border-radius:2px;
+		height:42px;
+		line-height:42px;
+		color:#fff;
+		text-align:center;
+		font-size:18px;
+		width:240px;
+		margin-left:20px;
+		border:none;
+	}
+/*--合作网站账号登录--
+	.account-box {
+		margin:16px 0 0 0;
+		position:relative;
+	}
+	.account-box h4 {
+		border-bottom:1px solid #ddd;
+		position:relative;
+		height:14px;
+		width:300px;
+	}
+	.account-box span{
+		font-size:14px;
+		color:#666;
+		position:absolute;
+		display:block;
+		width:120px;
+		background:#fff;
+		top:4px;
+	}
+	.account-box .icon {
+		margin:22px 0 0;
+		overflow:hidden;
+	}
+	.icon a{
+		display:block;
+		float:left;
+		margin-right:12px;
+		width:24px;
+		height:24px;
+		background:url(../img/login/icon.png) no-repeat;
+	}
+	.icon .weix{
+		background-position: 0 -262px;
+	}*/

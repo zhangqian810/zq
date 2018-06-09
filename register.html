@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<div class="main">
+		<!--头部-->
+		<div class="register_top">
+			<h1 class="lv_logo">
+				<a href="#"></a>
+			</h1>	
+			<h2 class="lv_logo_keywords">注册中心</h2>
+		</div>
+		<!--主体-->
+		<div class="register_center">
+			<div class="reg">
+				<form action="" method="post">
+					<div class="reg_Sign">
+						<div class="itemLeft">用户名：</div>
+						<div class="itemMiddle">
+							<input type="text" maxlength="9" placeholder="用户名必须为3~9位数字" id="uname" name="uname">
+						</div>
+						<div class="red">*</div>
+					</div>
+					<div class="reg_Sign" id="passwd">
+						<div class="itemLeft">密码：</div>
+						<div class="itemMiddle">
+							<input type="password" maxlength="9" placeholder="密码必须为3~9位数字" id="upwd" name="upwd">
+						</div>
+						<div class="red">*</div>
+					</div>
+					<div class="reg_Sign">
+						<div class="itemLeft">确认密码：</div>
+						<div class="itemMiddle">
+							<input type="password" maxlength="9" placeholder="再次输入密码" id="cpwd" name="cpwd">
+						</div>
+						<div class="red">*</div>
+					</div>
+					<div class="reg_Sign">
+						<div class="itemLeft">姓名：</div>
+						<div class="itemMiddle">
+							<input type="text" maxlength="50" id="user_name">
+						</div>
+						<div class="red">*</div>
+					</div>
+					<div class="reg_Sign">
+						<div class="itemLeft">邮箱：</div>
+						<div class="itemMiddle">
+							<input type="mail" maxlength="20" id="email">
+						</div>
+					</div>
+					<div class="reg_Sign">
+						<div class="itemLeft">手机号码：</div>
+						<div class="itemMiddle">
+							<input type="text" maxlength="11" placeholder="请输入11位数字" id="phone">
+						</div>
+						<div class="red">*</div>
+					</div>
+					<div class="reg_Sign">
+						<div class="itemLeft">性别：</div>
+						<select name="gender" id="gender">
+							<option value="0">女</option>
+							<option value="1">男</option>
+							<option value="2">保密</option>
+						</select>
+					</div>
+					<div class="reg_checkbox">
+						<input type="checkbox" class="gray_ipt">我已阅读并接受
+							<a href="#">《旅游网会员服务条款》</a>
+					</div>
+					<input type="button" value="同意服务条款并注册" id="btn">
+					<div class="gray_wz">
+						<h4>
+							已有账号,
+							<a href="login.html" class="link_blue">直接登录 &gt;&gt;</a>
+						</h4>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/register.js"></script>
+</body>
+</html>

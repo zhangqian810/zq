@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<!--头部-->
+	<div class="main">
+		<div class="login_top">
+			<h1 class="lv_logo">
+				<a href="#"></a>
+			</h1>	
+			<h2 class="lv_logo_keywords">登录中心</h2>
+			<span class="login_hotline">咨询热线:020-000-0000</span>
+		</div>
+	</div>
+	<!--主体-->
+	<div class="login-wrap clear">
+		<div class="main">
+			<div class="login-box">
+				<div class="user-box">
+					<ul class="tab clearfix">
+						<li class="lf active">普通登录</li>
+						<li class="rf"><a href="register.html">立即注册</a></li>
+					</ul>
+					<!--普通登录-->
+					<div class="content">
+						<ul class="ipt-box clearfix">
+							<form method="post" id="loginform" name="login_form" action="">
+								<li>
+									<input type="text" class="user-ipt" id="uname" name="uname" placeholder="请输入用户名">
+									<span id="uname-msg"></span><br>
+									<p class="name"></p>
+								</li>
+								<li class="pwd">
+									<input type="password" class="user-ipt" id="upwd" name="upwd" placeholder="请输入密码">
+									<span id="upwd-msg"></span><br>
+									<p class="passwd"></p>
+								</li>
+								<li class="forget_pw clearfix">
+									<span class="check-box lf">
+										<input type="checkbox" checked name="remPassWord"  class="check">记住密码30天
+									</span>
+									<a href="#" class="link rf">忘记密码？</a>
+								</li>
+								<input type="button" value="登  录" id="loing-btn">
+							</form>
+						</ul>
+<!-- 						<p class="member"> -->
+<!-- 							还不是会员？ -->
+<!-- 							<a href="#" class="link">免费注册,更有新手礼包等着您！</a> -->
+<!-- 						</p> -->
+						<!--合作网站账号登录
+						<div class="account-box"> 
+							<h4> 
+								<span>合作网站账号登录</span>
+ 							</h4>
+ 							<div class="icon clearfix">
+ 								<a href="#" class="weix"></a>
+ 							</div>
+ 						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>

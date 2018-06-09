@@ -1,0 +1,159 @@
+/*登录部分*/
+/*logo部分*/
+	.header-bar{
+		width:100%;
+		height:90px;
+	}
+	#header-top{
+		margin:0 auto;
+		padding:0;
+		width:1200px;
+		height:90px;
+	}
+
+	#logo{
+		margin-top:12px;
+	}
+	#top-input{
+		margin-left:120px;
+		margin-right:80px;
+	}
+	#top-input div.input-box{
+		width:400px;
+		height:34px;
+		margin-top:28px;
+		box-sizing:border-box;
+		border:1px solid #009fe9;
+		float:left;
+		padding:0 5px;
+		position:relative;
+		z-index:10;
+	}
+	#txtSearch{
+		outline:0;
+		border:0;
+		height:32px;
+		line-height:32px;
+		width:300px;
+		box-sizing:border-box;
+		background:#f6f6f6;
+	}
+	#top-input a.sort-search{
+		color:#999;
+		font-size:14px;
+		height:22px;
+		line-height:22px;
+		background:#f0f0f0;
+		padding:0 10px;
+		border-radius: 12px;
+		margin: 0 5px 0 0;
+		display:inline-block;
+	}
+	#top-input>a.search-img{
+		float:left;
+		width:67px;
+		height:34px;
+		margin-top:28px;
+	}
+	/*搜索帮助*/
+	#shelper{
+		width:400px;
+		overflow:hidden;
+		position:absolute;
+/*		left:320px;*/
+		z-index: 2;
+		left:-1px;
+		top:36px;
+		border:1px solid #ccc;
+		background-color: #fff;
+		box-shadow: 1px 2px 1px rgba(0,0,0,.2);
+		list-style-type: disc;
+		display:none;
+	}
+	#shelper>li{
+		overflow: hidden;
+		padding: 1px 6px;
+		line-height: 24px;
+		cursor: pointer;
+	}
+	#shelper>li:hover,#shelper>li.hover{
+		background: #f5f5f5;
+	}
+	#shelper>li.focus{ 
+		background:lightBlue 
+	}
+	#shelper .search-item{
+		color: #009fe9;
+		float: left;
+		width: 100%;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	/*右侧：登录/注册*/
+	.connection{
+		font-size:14px;
+		height:90px;
+		line-height:90px;
+		padding-right:50px;
+	}
+	#top-input .u1{
+		font-size:15px;
+	}
+	#top-input .u1 b{
+		color:#333;
+		margin:0 5px;
+	}
+	.list{
+		float:right;
+		font-size:14px;
+	}
+	.list li{
+		float:left;
+		padding:2px;
+	}
+/*头部导航*/
+	.nav-content{
+		width:100%;
+		min-width:1200px;
+		height:50px;
+		line-height:50px;
+		background:#009fe9;
+	}
+	.nav-main{
+		width:1200px;
+		margin:0 auto;
+		height:50px;
+	}
+	.nav-content  ul.nav li{
+		margin-right:40px;
+		width:100px;
+		line-height:50px;
+		float:left;
+		position:relative;
+	}
+	.nav-content  ul.nav li a{
+		color:#fff;
+		font-size:18px;
+		display:block;
+		text-align:center;
+	}
+	/*鼠标悬停*/
+	.nav-content  ul.nav>li a:hover{
+		color:#076ce0;
+		background:#84cbec;
+		width:100px;
+	}
+/*	.nav-content  ul.nav>li ul li{
+		background:#009fe9;
+	}	
+	.nav-content  ul.nav li ul{
+		position:absolute;
+		left:0;
+		top:50px;
+		display:none;
+		z-index:999;
+	}
+	.nav-content ul.nav li:hover ul{
+		display:block;
+	}*/

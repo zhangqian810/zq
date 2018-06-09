@@ -1,0 +1,181 @@
+/*列表大图*/
+	.details-banner{
+		width:100%;
+		min-width:1200PX;
+		height:510px;
+		overflow:hidden;
+		margin-bottom:15px;
+	}
+	.details-banner>.pic{
+		width:100%;
+		height:500px;
+		background:url(../img/banner/AD0Ijov8BxAEGAAgtuDA1wUo6ZmyjwEwgA842AQ.jpg) no-repeat top center;
+	}
+/*产品主体*/
+	/* 左侧中图*/
+	#product-details{
+		width:100%;
+		min-width:1200px;
+		margin:30px 0;
+	}
+	#product-details #pro-container{
+		width:1200px;
+		height:650px;
+		margin:0 auto;
+		padding:0;
+		background:#fff;
+	}
+	#product-details #pro-container #view{
+		height:400px;
+	}
+	#product-details #pro-container #view #mediumDiv{
+		width:42%;
+		height:350px;
+		padding:0 10px 10px 100px;
+		margin-top:50px;
+		float:left;
+		text-align:center;
+	}
+	#product-details #pro-container #view #mediumDiv img{
+/*		width:90%;*/
+	}
+	#product-details #view #show-details{
+		width:43%;
+		margin-top:40px;
+		float:left;
+	}
+	#product-details #view #show-details p{
+		color:#333;
+		font-size:16px;
+		margin:15px;
+		padding-left:5px;
+	}
+	#product-details #view #show-details p:first-child{
+		font-size:18px;
+		font-weight:600;
+		padding-left:5px
+		text-overflow:ellipsis;
+		white-space:wrap;
+		line-height:1.5em;
+	}
+	#product-details #view #show-details p:nth-child(5) .price{
+		color:#009fe9;
+		font-size:22px;
+		font-weight:bold;
+	}
+	#product-details #view #show-details .p-underline{
+		border-bottom:1px solid #e6e6e6;
+		width:300px;
+		margin-bottom:10px;
+	}
+/*	#product-details #view #show-details p:last-child{
+		width:110px;
+		height:40px;
+		line-height:40px;
+		background:#009fe9;
+		color:#fff;
+		text-align:center;
+	}*/
+	#product-details #view #show-details p .btn-order{
+		width:110px;
+		height:40px;
+		background:#009fe9;
+		color:#fff;
+		border:none;
+		font-size:15px;
+	}
+/*在线预定*/
+	.product-jumbotron{
+		left:50%;
+		top: 50%;
+		width: 350px;
+		height: 260px;
+		border-radius: 15px;
+		position: fixed;
+		background: #fff;
+		border: 2px solid #ddd;
+		opacity: 0.9;
+		z-index:20;
+		display: none;
+	}
+	.product-jumbotron h1 {
+		font-size: 16px;
+		margin-top: 0px;
+		text-align: center;
+		background: #009fe9;
+		line-height: 30px;
+		color: #fff;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+	.product-jumbotron ul{
+		text-align:center;
+		font-size:15px;
+	}
+	.product-jumbotron ul li {
+		margin-top: 20px;
+	}
+	.input-name,.input-phone,.input-date {
+		display: inline;
+		line-height: 22px;
+	}
+	.btn {
+		border-radius: 3px;
+		width:50px;
+		height:24px;
+		line-height:24px;
+		background:#009fe9;
+		color:#fff;
+		display: inline-block;
+	}
+/*图片滚动*/
+	#content {
+		position:relative;
+		margin:0 auto;
+		width:1000px;
+		height:200px;
+		overflow:hidden;
+	}
+	/*左侧箭头*/
+	#left {
+		position:absolute;
+		display:block;
+		width:25px;
+		height:25px;
+		text-align:center;
+		top:100px;
+		left:0;
+		z-index:666;
+		background:#ddd;
+		font-size:18px;
+		line-height:25px;
+	}
+	/*右侧箭头*/
+	#right {
+		position:absolute;
+		z-index:666;
+		font-size:18px;
+		line-height:25px;
+		text-align:center;
+		display:block;
+		top:100px;
+		right:0;
+		background:#ddd;
+		width:25px;
+		height:25px;
+	}
+	/*图片部分*/
+	#pan {
+		width:3300px;
+		height:300px;
+		float:left;
+		left:-1000px;
+		position:absolute;
+		position:absolute;
+		overflow:hidden;
+	}
+	#pan img {
+		float:left;
+		width:300px;
+		height:300px;
+	}

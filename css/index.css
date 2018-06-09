@@ -1,0 +1,598 @@
+/*banner样式*/
+	#banner{
+		width:100%;
+		min-width:1200px;
+		height:600px;
+		overflow:hidden;
+		position:relative;
+		margin:0 auto;
+		z-index:0;
+	}
+	#banner ul.banner-img{
+		position:absolute;
+		left:0;
+	}
+	#banner ul.banner-img img{
+		width:100%;
+		height:600px;
+	}
+	#banner ul.banner-img li{
+		float:left;
+		width:1920px;
+	}
+	/*左右两侧按钮*/
+	#banner a.ck-left{
+		background:#ddd url(../img/banner/arrow-left.png) no-repeat center center;
+		left:5px;
+	}
+	#banner a.ck-right{
+		background:#ddd url(../img/banner/arrow-right.png) no-repeat center center;
+		right:5px;
+	}
+	#banner a.ck-side{
+		width:50px;
+		height:70px;
+		opacity:0.15;
+		border-radius:5px;
+		position:absolute;
+		top:265px;/*居中显示：height:600(300),ck-side-height:70(35)*/	
+	}
+	/*原点指示器*/
+	.banner-ind{
+		width:1200px;
+		height:600px;
+		margin:0 auto;
+		position:relative;
+	}
+	#banner .banner-ind ul.indicators{
+		position:absolute;
+		top:550px;
+		left:540px;
+	}
+	#banner .banner-ind ul.indicators li{
+		float:left;
+		width:50px;
+		height:2px;
+		background:#fff;
+		margin-right:8px;
+	}
+	#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+		cursor:pointer;
+		background-color:#fff;
+		width:50px;
+		height:5px;
+	}
+/*四小图部分*/
+	#fourt{
+		width:100%;
+		height:390px;
+		margin-top:15px;
+	}
+	#fourt ul{
+		background:#fff;
+		height:390px;
+	}
+	#fourt ul li.img{
+		margin:15px 0px 0 15px;
+		float:left;
+		position:relative;
+	}
+	#fourt ul>.img>img{
+		width:100%;
+		height:100%;
+		position:relative;
+		top:0;
+	}
+	/*img:before{
+		content:'';
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:10;
+		background-color:rgba(255,255,255,0.2);
+		transform:scale3d(1,1,1) rotate3d(0,0,1,45deg) translate3d(0,-120%,0);
+		transition:all 0.8s ease;
+	}
+	.img:hover:before{
+		transform:scale3d(1,1,1) rotate3d(0,0,1,45deg) translate3d(0,120%,0);
+	}*/
+/* 爆款线路部分*/
+	#selectBox{
+		margin:25px 0;
+	}
+	#selectBox div.main{
+		height:610px;
+		background:#fff;
+	}
+	#selectBox div.select-title{
+		height:44px;
+		line-height:44px;
+		padding:10px 0 6px 10px;
+		margin-bottom:15px;
+		border-bottom: 1px solid #009fe9;
+	}
+	#selectBox div.select-title h2{
+		float:left;
+		font-weight:700;
+		font-size:30px;
+		line-height:44px;
+		margin-left:10px;
+	}
+	#selectBox .select-content .select-list ul li{
+		width:216px;
+		float:left;
+		margin:0 0 20px 20px;
+		position:relative;
+		font-size:14px;
+	}
+	#selectBox .select-content .select-list ul li a{
+		height:100%;
+		display:block;
+	}
+	#selectBox .select-content .select-list ul li .pic_box{
+		width:100%;
+		height:160px;
+		position:relative;
+	}
+	.select-list ul li .pic_box img{
+		width:100%;
+		height:100%;
+		border:0;
+	}
+	.select-list ul li .pic_box span{
+		height:32px;
+		position:absolute;
+		background:#ff6e60;
+		right:0;
+		bottom:0;
+		color:#fff;
+		line-height:32px;
+		padding:0 10px;
+		z-index:19;
+	}
+	.select-list ul li .pic_box span i{
+		font-size:15px;
+	}
+	.select-list ul li .pic_box span em{
+		font-size: 20px;
+	}
+	#selectBox div.main .select-content .select-list ul li .detail_box{
+		height:80px;
+		border:1px solid #eee;
+		border-top:none;
+		padding:8px 10px 0 10px;
+	}
+	#selectBox div.main .select-content .select-list ul li .detail_box p{
+		height:44px;
+		font-size:15px;
+		color:#333;
+		line-height:22px;
+		overflow:hidden;
+		font-size:15px;
+	}
+	#selectBox div.main .select-content .select-list ul li .detail_box div{
+		color:#999;
+		line-height:20px;
+		margin-top:8px;
+	}
+	#selectBox div.main .select-content .select-list ul li .detail_box div span{ 
+		max-width:120px;
+		height:20px;
+		display:inline-block;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		font-size:15px;
+	}
+	#selectBox div.main .select-content .select-list ul li .detail_box div em{ 
+		float:right;
+		font-size:15px;
+	}	
+	em, i{
+		font-style:normal;
+	}
+	/* 鼠标悬停图片暗色背景 */
+	.select-list ul li .pic_box .meng_img {
+		width: 100%;
+		height: 100%;
+		background: url(../img/zb/imgbg.png) repeat;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+		z-index: 2;
+	} 
+	/*背景悬停效果*/
+	.select-list ul li .pic_box:hover .meng_img {
+		display:block;
+	} 
+	/*鼠标悬停边框样式*/
+	#selectBox div.main .select-content ul li a:hover{
+		border-color:#fff;
+		box-shadow:0 1px 14px rgba(0,0,0,.15);
+	}
+/*游周边样式部分*/
+	#zbBox{
+		margin:25px 0;
+	}
+	#zbBox div.main{
+		height:580px;
+		background:#fff;
+	}
+	/*标题文字部分*/
+	#zbBox .zb-title{
+		height:44px;
+		line-height:44px;
+		padding:10px 0 6px 10px;
+		margin-bottom:15px;
+		border-bottom: 1px solid #009fe9;
+	}
+	#zbBox .zb-title h2{
+		float:left;
+		font-weight:700;
+		font-size:30px;
+		line-height:44px;
+		margin-left:10px;
+	}
+	/*左侧图片*/
+	.infocon .slpnel {
+		float:left;
+		width:968px;
+	}
+	/*	第一张图片  */
+	.slpnel .tab_list ul li.w464_li {
+		width:464px;
+		height:235px;
+	}
+	/*其他li的设置*/
+	.infocon .tab_list ul li {
+		width: 222px;
+		float: left;
+		margin: 0 5px 20px 10px;
+		position:relative;
+	}
+	.zb_box .tab_list ul li.w464_li .pic_box {
+		height: 235px;
+	}
+	/* 鼠标悬停图片暗色背景 */
+	.tab_list ul li .pic_box .meng_img {
+		width: 100%;
+		height: 100%;
+		background: url(../img/zb/imgbg.png) repeat;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+		z-index: 2;
+	} 
+	/*背景悬停效果*/
+	.tab_list ul li .pic_box:hover .meng_img {
+		display:block;
+	} 
+	/* 跟团/自由行标签定位 */
+	.zb_box .tab_list ul li .pic_box em {
+		color: #fff;
+		line-height: 22px;
+		position: absolute;
+		background: #5589be;
+		top: 0;
+		left: 0;
+		padding: 0 9px;
+		z-index: 19;
+	}
+	/* 第一张大图产品文字部分开始*/
+	.zb_box .tab_list ul li.w464_li .intro_box {
+		width: 444px;
+	}
+	.tab_list ul li.w464_li .intro_box {
+		width: 100%;
+		height:50px;
+		padding: 9px 10px 7px 10px;
+		position:absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 50;
+		background:rgba(0,0,0,0.3);
+	}
+	.tab_list ul li.w464_li .intro_box p {
+		height: 24px;
+		font-size: 18px;
+		line-height: 24px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		color:#fff;
+	}
+	.zb_box .tab_list ul li.w464_li .intro_box div {
+		color: #ccc;
+		line-height: 22px;
+		margin-top: 3px;
+	}
+	.zb_box .tab_list ul li.w464_li .intro_box div span {
+		font-size: 14px;
+	}
+	.zb_box .tab_list ul li.w464_li .intro_box div em {
+		float: right;
+	}
+	.zb_box .tab_list ul li.w464_li .intro_box div em b {
+		color: #ff685d;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.zb_box .tab_list ul li.w464_li .intro_box div em i {
+		color: #ff685d;
+		font-size: 22px;
+		font-family: "Arial";
+		margin-right: 2px;
+	}
+	/* 第一张大图产品文字部分结束*/
+	/* 第二-八张图片高度 */
+	.tab_list ul li .pic_box {
+		height: 140px;
+	}
+	/* 图片部分样式设置 */
+	.infocon .tab_list ul li .pic_box {
+		width: 100%;
+		position:relative;
+	}
+	.tab_list ul li .pic_box img {
+		width: 100%;
+		height: 100%;
+	}
+	/* 第二-八张图片产品描述部分*/
+	.tab_list ul li .detail_box {
+		height:86px;
+		border:1px solid #eee;
+/*		border-top:none;*/
+		padding:8px 10px 0 10px;
+	}
+	.tab_list ul li:hover{
+		border-color:#fff;
+		box-shadow:0 1px 14px rgba(0,0,0,.15);
+	}
+	.zb_box .tab_list ul li .detail_box p {
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2; 
+		-webkit-box-orient: vertical;
+	}
+	.tab_list ul li .detail_box p {
+		height: 44px;
+		font-size: 16px;
+		color: #333;
+		line-height: 22px;
+		overflow: hidden;
+	}
+	.zb_box .tab_list ul li .detail_box div {
+		margin-top: 10px;
+	}
+	.tab_list ul li .detail_box div {
+		color: #999;
+		line-height: 20px;
+		margin-top: 8px;
+	}
+	.tab_list ul li .detail_box div span {
+		max-width: 120px;
+		height: 20px;
+		display: inline-block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.tab_list ul li .detail_box div em {
+		float: right;
+	}
+	.zb_box .tab_list ul li .detail_box div em b {
+		color: #ff5346;
+		font-size: 16px;
+	}
+	b {
+		font-weight: 400;
+	}
+	.zb_box .tab_list ul li .detail_box div em i {
+		color: #ff5346;
+		font-size: 20px;
+		font-family: Arial;
+		margin-right: 2px;
+	}
+
+	/*右侧文字*/
+	.zb_box .infocon .srpnel {
+		height:488px;
+	}
+	.infocon .srpnel {
+		width:220px;
+		height:444px;
+		float:right;
+		background:#f0fffa;
+		border-top:2px solid #009fe9;
+		margin-right:10px;
+	}
+	.infocon .srpnel .hot_city {
+		margin-bottom: 6px;
+	}
+	.infocon .srpnel .hot_common p {
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 26px;
+		padding: 9px 0 0 5px;
+	}
+	.infocon .srpnel .hot_common ul {
+		padding-left:5px;
+	}
+	.infocon .srpnel .hot_city ul li {
+		width: 40px;
+		margin: 0 28px 0 2px;
+	}
+	.infocon .srpnel .hot_common ul li {
+		float: left;
+		margin: 0 8px 0 2px;
+	}
+	.infocon .srpnel .hot_city ul li a {
+		max-width:50px;
+		height: 100%;
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.infocon .srpnel .hot_common ul li a {
+		height: 26px;
+		color: #666;
+		line-height: 26px;
+		display: inline-block;
+	}
+	.infocon .srpnel .theme_act {
+		margin-bottom: 18px;
+	}
+	.infocon .srpnel .hot_act ul li {
+		margin-bottom: 30px;
+	}
+	.infocon .srpnel .hot_act .picture {
+		width: 95px;
+		float: left;
+	}
+	.infocon .srpnel .hot_act .picture img {
+		display: block;
+		margin: 0 auto;
+	}
+	.infocon .srpnel .hot_act ul li p {
+		height: 72px;
+		color: #333;
+		font-size: 16px;
+		line-height: 26px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.infocon .srpnel .hot_act ul li span {
+		color: #999;
+		font-size: 12px;
+		display: block;
+		line-height: 20px;
+	}
+/*游玩攻略 goBox*/
+	#goBox{
+		/* padding-top:30px; */
+		margin-bottom:30px;
+	}
+	#goBox div.main{
+		background:#fff;
+		height:565px;
+	}
+	#goBox div.main div.goBox-title{
+		height:44px;
+		line-height:44px;
+		padding:10px 0 6px 20px;
+		margin-bottom:15px;
+		border-bottom: 1px solid #009fe9;
+	}
+	#goBox div.main div.goBox-title p a{
+		font-size:30px;
+		font-weight:700;
+		color:#000;
+	}
+	#goBox div.main div.goBox-content div.slpnel{
+		float:left;
+		width:968px;
+	}
+	#goBox div.go-list ul li{
+		width:222px;
+		height:226px;
+		border-bottom:3px solid #f0dbe9;
+		float:left;
+		margin:0 10px 15px 10px;
+	}
+	#goBox .go-list .picture{
+		width:100%;
+		height:140px;
+		overflow:hidden;
+	}
+	#goBox .go-list .intro_box{
+		height:86px;
+		border-left:1px solid #eee;
+		border-right:1px solid #eee;
+		text-align:center;
+	}
+	#goBox .go-list .intro_box p{
+		color:#333;
+		font-size:20px;
+		font-weight:700;
+		line-height:26px;
+		padding:18px 0 6px 0;
+	}
+	#goBox .go-list .intro_box span{
+		display:block;
+		color:#666;
+		font-size:14px;
+		line-height:20px;
+	}
+	/*图片放大效果*/
+	#goBox .go-list ul li a:hover .picture img{
+		transform:scale(1.2,1.2);
+	}
+	#goBox .go-list ul li a .picture img {
+		width:100%;
+		height:100%;
+		transition:transform .9s ease 0s;
+	}
+
+/*旅行服务 travelService*/
+	#travelService{
+		margin-bottom:30px;
+	}
+	#travelService .main{
+		background:#fff;
+		height:200px;
+	}
+	#travelService .ts-title{
+		height:44px;
+		line-height:44px;
+		padding:10px 0 6px 10px;
+		margin-bottom:15px;
+		border-bottom: 1px solid #009fe9;
+	}
+	#travelService .ts-title h2{
+		float:left;
+		font-weight:700;
+		font-size:30px;
+		line-height:44px;
+		margin-left:10px;
+	}
+	#travelService .main .service-list ul{
+		padding-left:20px;
+		display:block;
+	}
+	#travelService .main .service-list ul li{
+		float:left;
+		margin:0px 20px 10px 0;
+	}
+	#travelService .main .service-list ul li a{
+		width:340px;
+		height:85px!important;
+		padding:25px 0 0 30px;
+		display:block;
+		border:1px solid #eee;
+	}
+	#travelService .main .service-list ul li a:hover{
+		border-color:#fff;
+		box-shadow:0 1px 14px rgba(0,0,0,.12);
+	}
+	#travelService .main .service-list ul li img{
+		float:left; 
+		margin-right:15px;
+	}
+	#travelService .main .service-list ul li p{
+		color:#333;
+		font-size:20px;
+		line-height:10px;
+		font-weight:normal;
+	}
+	#travelService .main .service-list ul li span{
+		color:#999;
+		font-size:14px;
+		line-height:20px;
+		margin-top:15px;
+		display:block;
+	}

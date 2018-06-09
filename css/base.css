@@ -1,0 +1,58 @@
+/*设置通用样式*/
+body{
+	font:12px "simhei","Arial","微软雅黑";
+	color:#222222;
+	margin:0;
+	padding:0;
+	background:#f6f6f6;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,dt,li,div,input,form,select,textarea,span{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{
+	color:#076ce0;
+}
+img{
+	vertical-align:middle;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    line-height: 0;
+    height:0;
+    visibility:hidden;
+}
+div.main{
+	width:1200px;
+	margin:0 auto;
+}
+.fixed_nav{
+    background:#F6F6F6;
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:80px;
+    transition:all 0.1s;
+	border-bottom:2px solid #009fe9;
+}

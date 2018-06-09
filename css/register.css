@@ -1,0 +1,132 @@
+/*头部*/
+	div.main{
+		width:1000px;
+	}
+	.register_top{
+		height:70px;
+	}
+	.lv_logo{
+/*		margin-top:10px;*/
+		float:left;
+		background:url(../img/header/logo3.png) no-repeat;
+	}
+	.lv_logo, .lv_logo a{
+		width:220px;
+		height:70px;
+		position:relative;
+	}
+	.lv_logo_keywords{
+		float:left;
+		height:40px;
+		line-height:40px;
+		text-indent:10px;
+		margin-left:10px;
+		border-left:1px solid #CCCCCC;
+		font-size:22px;
+		color:#666666;
+		font-weight:normal;
+		margin-top:15px;
+	}
+	.register_hotline{
+		position:relative;
+		top:10px;
+		float:right;
+		display:block;
+		overflow:hidden;
+		padding-top:15px;
+		font-size:15px;
+		color:#666666;
+		font-weight:normal;
+	}
+/*注册信息主体*/
+	.register_center {
+		border-top:1px solid #DEDEDE;
+		overflow:hidden;
+	}
+	.register_center .reg{
+		width:500px;
+		height:auto;
+		padding:20px;
+		margin-top:20px;
+	}
+	.register_center .reg .reg_Sign {
+		width:100%;
+		line-height:30px;
+		font-size:15px;
+		color:#666;
+		margin-bottom:12px;
+		display:flex;
+	}
+	.register_center .reg .reg_Sign .itemLeft{
+		text-align:right;
+		width:22.5%;
+		float:left;
+		overflow:hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+	.register_center .reg .reg_Sign .itemMiddle{
+		width:72.5%;
+		float:left;
+	}
+	.register_center .reg .reg_Sign input{
+		width:95%;
+		height:30px;
+		line-height:30px;
+		padding-left:10px;
+		border:1px solid #ccc;
+		color:#333;
+		vertical-align:middle;
+		box-sizing:border-box;
+		font-size:12px;
+	}
+	.register_center .reg .reg_Sign .red{
+		width:5%;
+		float:left;
+		text-align:center;
+		color:red;
+	}
+	.register_center .reg .reg_Sign .itemMiddle #phone{
+		width:95%;
+	}
+	.pw-strength-box {
+		margin:5px 0 10px 115px;
+		display:inline-block;
+	}
+	span{
+		display: inline-block;
+	}
+	.reg_checkbox {
+		margin-left:120px;
+		font-family: "微软雅黑";
+		font-size:14px;
+	}
+	.gray_ipt {
+		vertical-align:middle;
+		margin-right:4px;
+	}
+/*注册按钮*/
+	#btn{ 
+		display:block;
+		width:240px;
+		height:40px;
+		line-height:40px;
+		font-size:16px;
+		border-radius:2px;
+		color:#fff;
+		text-align:center;
+		background:#009fe9;
+		margin-left:120px;
+		margin-top:12px;
+		border:none;
+	}
+/*已是会员*/
+	.gray_wz{
+		color:#666;
+		margin-top:20px;
+		margin-left:120px;
+		font-size:14px;
+	}
+	.gray_wz a.link_blue {
+		color: #29e;
+	}

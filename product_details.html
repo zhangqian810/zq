@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>产品详情页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="css/product_details.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+<body>
+	<!--1.header-->
+	<header id="header">
+	</header>
+	<!--2.banner
+	<div class="details-banner">
+		<div class="pic">
+		</div>
+	</div>-->
+	
+	<!--2.轮播图开始-->
+	<div class="center">
+		<div class="center_top">
+			<!-- 轮播图开始区域 -->
+			<div class="content_middle">
+				<div class="common_da">
+					<a class="common btnLeft" href="javascript:;"></a>
+					<a class="common btnRight" href="javascript:;"></a>
+				</div>
+				<ul>
+					<li style="background:url(img/banner-others/bg2.jpeg) no-repeat center center;opacity:100;filter: alpha(opacity=1);"></li>
+				  <li style="background:url(img/banner-others/bg3.jpeg) no-repeat center center;"></li>
+				  <li style="background:url(img/banner-others/bg4.jpeg) no-repeat center center;"></li>
+				  <li style="background:url(img/banner-others/bg5.jpeg) no-repeat center center;"></li>
+				  <li style="background:url(img/banner-others/bg6.jpeg) no-repeat center center;"></li>
+				</ul>
+				<div class="table">
+					<a class="small_active" href="javascript:;">五折秒杀周边游</a>
+					<a href="javascript:;">跟台湾宝贝趴趴走</a>
+					<a href="javascript:;">国内最高减1000</a>
+					<a href="javascript:;">迪拜暑期特惠</a>
+					<a href="javascript:;">日韩东南亚专场</a>
+				</div>
+			</div>    	  
+		</div>    
+	</div>
+
+	<!--3.产品细节部分 -->
+	<div id="product-details">
+		<div id="pro-container">
+			<div id="view"  class="clear">
+ 				<!--<div id="mediumDiv">
+ 						<img src="img/product_details/AD0ItOahBxACGAAg0tTkzwUonPPUygcw1gM4mAI.jpg"> 
+ 					</div> 
+ 					<div id="show-details">
+ 						<p>边塞风情-伊宁草原之夜4日游</p>
+						<p class="p-underline"></p
+ 						<p>行程天数:4天</p> 
+ 						<p>目 的 地:伊宁</p>		
+ 						<p>预 算/人:<span class="price">￥5000.00</span></p>
+ 						<p> 
+							<button type="button" class="btn-order">预约</button>
+ 						</p> 
+ 					</div> 
+				-->
+			</div>	
+
+			<!--在线预定弹框开始-->
+			<div class="product-jumbotron">
+				<h1>在线预定</h1>
+				<div>
+					<ul>
+						<li>
+						姓名:<input type="text" class="input-name">
+						</li>
+						<li>
+						电话:<input type="text" class="input-phone">
+						</li>
+						<li>
+						日期:<input type="text" class="input-date" id="date">
+						</li>
+						<li class="txt-btn">
+							<a class="btn" data-action="order-ok" href="#" role="button">提交</a>
+							<a class="btn" data-action="order-cancel" href="#" role="button">取消</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--在线预定弹框结束-->
+
+			<!--图片滚动开始-->
+			<div id="content">
+				<!--左右箭头-->
+				<span id="left">&lt;</span>
+				<span id="right">&gt;</span>
+				<!--图片部分-->
+				<div id="pan">
+					<img src="img/products/AD0ItOahBxACGAAg0tTkzwUonPPUygcw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAg5crgzwUo1OC5rgMw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAg9ajhzwUooI6qswQw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgi_zgzwUo3fSr4wUw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgmbjgzwUojtTzCzDWAziYAg!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgmdTkzwUo9Ynz9AEw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgrsngzwUo1J6ptAYw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgttPkzwUojP28lgUw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAguMrgzwUogpnywgYw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgxOvgzwUo4KuPhwUw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgzrrgzwUo-f_21gUw1gM4mAI!400x400.jpg">
+					<img src="img/products/AD0ItOahBxACGAAgzurgzwUoq4u98QYw1gM4mAI!400x400.jpg"> 
+				</div>
+			</div>
+			<!--图片滚动结束-->
+		</div>
+	</div>
+	<!--4.footer -->
+	<footer id="footer">
+	</footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery-ui-i18n.js"></script>
+	<script src="js/product_details.js"></script>
+	<script src="js/banner.js"></script>
+</body>
+</html>

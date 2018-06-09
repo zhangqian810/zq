@@ -1,0 +1,267 @@
+/* 主体颜色字体设定 */
+	body{
+		background: #fff;
+		font-family:"微软雅黑";
+	}
+
+	
+/*大图部分*/
+	.cus-top{
+		width: 100%;
+		height: 460px;
+		overflow:hidden;
+	}
+	.cus-top .cus-topSlider{
+		width:100%;
+		height:460px;
+		background:url(../img/dingzhiyou/cus-topPic_765c785.jpg) no-repeat top center;
+	}
+/*	.cus-middle {
+		width: 1200px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.container .cus-top .cus-topSlider .cus-topBtn {
+		width:370px;
+		padding-left:80px;
+		margin:0 auto;
+		position:relative;
+		top:287px;
+	}
+	.cus-topBtn-left, .cus-topBtn-right {
+		width:150px;
+		height:47px;
+		border-radius:2px;
+		background-color:#ff7800;
+		text-align:center;
+		line-height:47px;
+		color:#fff;
+		font-size:20px;
+		display:inline-block;
+		margin-right:30px;
+	}*/
+ /*主体部分*/
+	.container {
+		width:100%;
+		min-width:1200px;
+		height:100%;
+	}
+/*服务内容*/
+	.container .cus-content {
+		width:100%;
+		margin:0px auto;
+		overflow:hidden;
+		background:url(../img/dingzhiyou/content_bg_9af8f46.png) no-repeat;
+		background-size:100% 100%;
+	}
+	.container .cus-content .cus-infos{
+		width:1200px;
+		margin:0px auto 30px;
+		height:auto;
+	}
+	.container .cus-content .cus-infos .cus-infosItem{
+		width:1200px;
+		margin:30px auto;
+	}
+	.cus-infos .cus-infosItem .cus-infosItem-title{
+		width:240px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.cus-infos .cus-infosItem .cus-infosItem-title p{
+		font-size: 24px;
+		color: #333;
+		margin-bottom: 15px;
+	}
+	.cus-infos .cus-infosItem .cus-infosItem-title span{
+		font-size:16px;
+		color:#ccc;
+	}
+	.cus-infos .cus-infosItem .cus-infosItem-title:after{
+		content: ' ';
+		width:40px;
+		height:2px;
+		background-color:#66bd21;
+		display:block;
+		margin:10px auto 0;
+	}
+	.cus-infos .cus-infosItem .cus-infosItem-main{
+		width:100%;
+		height:auto;
+		margin-top:20px;
+	}
+	.cus-infosItem-left ul li {
+		float:left;
+		width:238px;
+		height:238px;
+		background-color:#f4f6f3;
+	}
+	.cus-infosItem-left ul li .infos{
+		width:122px;
+		height:122px;
+		margin:65px auto;
+		text-align:center;
+	}
+	.infos img{
+		width: 40px;
+		height: 37px;
+	}
+	.infos p{
+		font-size:18px;
+		color:#333;
+		margin:18px 0 14px;
+	}
+	.infos span{
+		display:inline-block;
+		font-size:14px;
+		color:#999;
+	}
+/*流程部分*/
+	.cus-flow {
+	    width:100%;
+	    height:190px;
+	    background:#eee;
+		margin-top:50px;
+	}
+	.cus-flow ul {
+		width:1200px;
+		height:100%;
+		margin:0 auto;
+	}
+	.cus-flow ul li {
+		width:14%;
+		float:left;
+		height:100%;
+		text-align:center;
+		position:relative;
+		top:50%;
+		margin-top:-50px;
+	}
+	.cus-flow ul li p {
+		margin-top: 5px;
+		font-size:15px;
+	}
+	.cus-flowLine img {
+		margin-top: 35px;
+	}
+/*表图部分*/
+	/* 外层大框 */
+	.cus-formContent {
+		width:100%;
+		height:600px;
+		background:url(../img/dingzhiyou/formContent_bg_b5df6ec.png) no-repeat;
+		background-size:100%;
+		margin-bottom:40px;
+	}
+	.cus-formContent .cus-form{
+		width:1160px;
+		height:600px;
+		margin:50px auto;
+		/* background-color:#fff; */
+		box-shadow:0 1px 20px 0 #ccc; 
+	}
+	/* 第一个大图部分 */
+	.cus-formContent .cus-form .cus-bimg{
+		background:url(../img/dingzhiyou/AD0ItOahBxACGAAgwJXhzwUo7vaAkgcwmAI42AQ.jpg) no-repeat;
+		height:600px;
+		width:280px;
+	}
+	.cus-formContent .cus-form .cus-bimg .cus-text{
+		width:230px;
+		height:300px;
+		margin:50px 15px;
+		display: block;
+		color:#fff;
+		font-size:16px;
+	}
+	.cus-formContent .cus-form .cus-bimg .cus-text .cus-pompany .cus-tit{
+		font-size:22px;
+		margin:20px 0;
+		font-weight:600;
+	}
+	.cus-formContent .cus-form .cus-bimg .cus-text .singer .cus-tit{
+		font-size:22px;
+		margin:20px 0;
+		font-weight:600;
+	}
+	/* 中间线条定义 */
+	.cus-formContent .cus-form .cus-bimg .cus-text .decoration{
+		border-bottom:1px solid #ddd;
+		margin:30px 0;
+	}
+	.cus-formContent .cus-form .cus-bimg .cus-text a{
+		color:#fff;
+		line-height:1.5em;
+	}
+	/* 第二张大图定义 */
+	.cus-formContent .cus-form .cus-larimg{
+		background:url(../img/dingzhiyou/AD0ItOahBxACGAAgnJbhzwUorO-FwwQw-AI42AQ.jpg) no-repeat;
+		height:600px;
+		width:380px;
+		position:relative;
+		top:0;
+		left:0;
+	}
+	/*中间白色背景*/
+	.cus-formContent .cus-form .cus-larimg .lar-small{
+		position:relative;
+		z-index:0;
+		top:300px;
+		left:50px;
+	} 
+	/*中间文字*/
+	.cus-formContent .cus-form .cus-larimg .lar-text{
+		position:absolute;
+		z-index:1;
+		top:170px;
+		left:55px;
+		text-align:center;
+		transition:all 1s linear;
+	} 
+	.cus-formContent .cus-form .cus-larimg:hover .lar-text{
+		transform:translateY(-5px);
+	}
+	.cus-formContent .cus-form .cus-larimg .lar-text .simpleText a{
+		font-size:18px;
+		color:#009fe9;
+		line-height:1.5em;
+	}
+	/*线条*/
+	.cus-formContent .cus-form .cus-larimg .lar-text .solid{
+		border-bottom:1px solid #009fe9;
+		width:170px;
+		margin:20px 0 10px 0;
+	}
+	.cus-formContent .cus-form .cus-larimg .lar-text .big-title a{
+		font-size:22px;
+		color:#009fe9;
+	}
+	/* 第三-六张图片定义 */
+	.cus-formContent .cus-form .cus-smallimg{
+		height:300px;
+		width:250px;
+	}
+	.cus-formContent .cus-form .cus-smallimg .cus-pic{
+		width:100%;
+		position:relative;
+		overflow:hidden;
+	}
+	.cus-formContent .cus-form .cus-smallimg .cus-txt{
+		position:absolute;
+		z-index:2;
+		height:auto;
+		line-height:300px;
+		width:100%; 
+		top:auto;
+		font-size:15px;
+		color:#fff;
+		bottom:-300px;
+		background:#000;
+		opacity: .3;
+		overflow:hidden;
+		text-align:center;
+		transition:all 1s ease;
+	}
+	.cus-formContent .cus-form .cus-smallimg:hover .cus-txt{
+		bottom:0;
+	}
